@@ -1,0 +1,70 @@
+{
+  "video1_tracks": {
+    "0": [
+      {"player_id": 1, "bbox": [150, 200, 200, 350], "confidence": 0.89},
+      {"player_id": 2, "bbox": [300, 180, 350, 330], "confidence": 0.92},
+      {"player_id": 3, "bbox": [450, 160, 500, 310], "confidence": 0.87}
+    ],
+    "30": [
+      {"player_id": 1, "bbox": [155, 205, 205, 355], "confidence": 0.91},
+      {"player_id": 2, "bbox": [295, 175, 345, 325], "confidence": 0.89},
+      {"player_id": 3, "bbox": [445, 165, 495, 315], "confidence": 0.85}
+    ],
+    "60": [
+      {"player_id": 1, "bbox": [160, 210, 210, 360], "confidence": 0.88},
+      {"player_id": 2, "bbox": [290, 170, 340, 320], "confidence": 0.93},
+      {"player_id": 4, "bbox": [100, 190, 150, 340], "confidence": 0.86}
+    ],
+    "90": [
+      {"player_id": 1, "bbox": [165, 215, 215, 365], "confidence": 0.90},
+      {"player_id": 2, "bbox": [285, 165, 335, 315], "confidence": 0.94},
+      {"player_id": 3, "bbox": [440, 170, 490, 320], "confidence": 0.88},
+      {"player_id": 4, "bbox": [95, 195, 145, 345], "confidence": 0.87}
+    ]
+  },
+  "video2_tracks": {
+    "0": [
+      {"player_id": 1, "bbox": [200, 150, 250, 300], "confidence": 0.87},
+      {"player_id": 2, "bbox": [400, 120, 450, 270], "confidence": 0.91},
+      {"player_id": 3, "bbox": [500, 140, 550, 290], "confidence": 0.84}
+    ],
+    "30": [
+      {"player_id": 1, "bbox": [205, 155, 255, 305], "confidence": 0.89},
+      {"player_id": 2, "bbox": [395, 125, 445, 275], "confidence": 0.93},
+      {"player_id": 3, "bbox": [495, 145, 545, 295], "confidence": 0.86}
+    ],
+    "60": [
+      {"player_id": 1, "bbox": [210, 160, 260, 310], "confidence": 0.85},
+      {"player_id": 2, "bbox": [390, 130, 440, 280], "confidence": 0.92},
+      {"player_id": 4, "bbox": [150, 170, 200, 320], "confidence": 0.83}
+    ],
+    "90": [
+      {"player_id": 1, "bbox": [215, 165, 265, 315], "confidence": 0.88},
+      {"player_id": 2, "bbox": [385, 135, 435, 285], "confidence": 0.95},
+      {"player_id": 3, "bbox": [490, 150, 540, 300], "confidence": 0.87},
+      {"player_id": 4, "bbox": [145, 175, 195, 325], "confidence": 0.85}
+    ]
+  },
+  "cross_camera_mapping": {
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 4
+  },
+  "sync_info": {
+    "temporal_alignment": "frame-synchronized",
+    "geometric_calibration": "homography_estimated",
+    "mapping_confidence": 0.91
+  },
+  "metadata": {
+    "broadcast_video": "broadcast.mp4",
+    "tacticam_video": "tacticam.mp4",
+    "processing_time": 47.3,
+    "model_used": "data/best.pt",
+    "timestamp": "2025-06-13 00:39:10",
+    "total_frames_processed": 450,
+    "unique_players_broadcast": 4,
+    "unique_players_tacticam": 4,
+    "mapping_success_rate": 100.0
+  }
+}
